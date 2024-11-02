@@ -14,6 +14,10 @@ public class Money {
         this.money = money;
     }
 
+    public Integer getMoney(){
+        return money;
+    }
+
     public Integer getBuyLottoCount(){
         return money / 1000;
     }
