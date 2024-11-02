@@ -43,5 +43,10 @@ WinningLotto
 - [x] 당첨 번호를 알려준다.
 - [x] 보너스 번호를 알려준다.
 
+LottoRank
+- [x] Lotto 결과를 알려준다.
+- [x] Lotto 당첨 금액을 알려준다.
+- [x] Lotto 당첨 설명을 알려준다.
+
 LottoGenerator
 - [ ] 1부터 45 사이의 서로다른 6개의 숫자를 생성한다.
