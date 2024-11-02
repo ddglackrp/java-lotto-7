@@ -22,7 +22,7 @@ class LottoResultTest {
                 LottoRank.NONE,
                 LottoRank.NONE,
                 LottoRank.NONE,
-                LottoRank.NONE,
+                LottoRank.FIFTH,
                 LottoRank.FIFTH
         );
     }
@@ -35,8 +35,8 @@ class LottoResultTest {
         Map<LottoRank, Integer> lottoResults = lottoResult.getLottoResults();
 
         //expected
-        assertThat(lottoResults.get(LottoRank.NONE)).isEqualTo(7);
-        assertThat(lottoResults.get(LottoRank.FIFTH)).isEqualTo(1);
+        assertThat(lottoResults.get(LottoRank.NONE)).isEqualTo(6);
+        assertThat(lottoResults.get(LottoRank.FIFTH)).isEqualTo(2);
     }
 
     @Test
@@ -46,7 +46,7 @@ class LottoResultTest {
         LottoResult lottoResult = new LottoResult(lottoRanks);
 
         //expected
-        assertThat(lottoResult.calculateTotalIncome()).isEqualTo(5000);
+        assertThat(lottoResult.calculateTotalIncome()).isEqualTo(10000);
     }
 
 }

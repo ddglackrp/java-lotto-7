@@ -44,6 +44,6 @@ public class LottoManger {
     }
 
     public Double calculateRateOfReturn(Integer totalIncome){
-        return (double)totalIncome / (money.getMoney()) * 100;
+        return ((double)totalIncome / (money.getMoney()))* 100;
     }
 }
