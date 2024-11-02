@@ -48,5 +48,10 @@ LottoRank
 - [x] Lotto 당첨 금액을 알려준다.
 - [x] Lotto 당첨 설명을 알려준다.
 
+LottoResult
+- [ ] Lotto 결과를 취합한다.
+- [ ] Lotto 결과를 알려준다.
+- [ ] Lotto 총 수입을 알려준다.
+
 LottoGenerator
 - [ ] 1부터 45 사이의 서로다른 6개의 숫자를 생성한다.
